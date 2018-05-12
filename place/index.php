@@ -1,7 +1,7 @@
 <?php
 session_start();
 header('Content-Type: application/json');
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 if ($_SERVER['REQUEST_METHOD'] != 'POST') {
       die("That method is not supported.");
